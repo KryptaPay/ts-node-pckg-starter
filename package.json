@@ -24,7 +24,8 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "build:types": "tsc -p ./tsconfig.json --outDir build --declaration true && api-extractor run",
-    "docs": "typedoc src --out docs"
+    "docs": "typedoc src --out docs",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
   },
   "devDependencies": {
     "@types/eslint": "^8.56.10",
