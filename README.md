@@ -13,6 +13,7 @@ git clone https://github.com/kryptapay/ts-node-pckg-starter <nom_du_projet>
 ```
 cd <nom_du_projet>
 npm install
+```
 
 - Lancer le serveur de développement
 ```
