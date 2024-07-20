@@ -32,3 +32,6 @@ dist/**/*
 
 # ignore yarn.lock
 yarn.lock
+
+# VCS
+.git
